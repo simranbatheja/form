@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: grey;
+    text-decoration: none;
+}
+span{
+    color: white;
+}
+hr{
+    width: 10%;
+    background-color: red;
+    height: 2px;
+    border: none;
+    margin-left: 45%;
+}
+.navhide{
+    display: none;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.firstpart{
+    color: white;
+    margin-top: 20px;
+}
+input{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    padding: 5px;
+    width: 600px;
+    background-color: rgba(68, 64, 64, 0.425);
+}
+::placeholder{
+    color: white;
+}
+select{
+    color: white;
+    margin-top: 5px;
+    padding: 5px;
+    width: 615px;
+    background-color: rgba(68, 64, 64, 0.425);
+}
+.secondpart{
+    color: white;
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button a{
+    color: white;
+}
+button{
+    background-color: rgba(255, 68, 0, 0.911);
+    padding: 10px;
+    width: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+button:hover{
+    background-color: red;
+}
+.button p{
+    color: grey;
+    margin: 10px;
+}
